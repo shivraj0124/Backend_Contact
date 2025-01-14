@@ -8,7 +8,7 @@ CORS(
     app,
     resources={
         r"/api/*": {
-            "origins": "http://localhost:5173",
+            "origins": "https://shivrajkolwankar.netlify.app",
             "methods": "POST",
             "allow_headers": "Content-Type",
         }
