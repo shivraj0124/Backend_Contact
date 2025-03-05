@@ -8,7 +8,7 @@ CORS(
     app,
     resources={
         r"/api/*": {
-            "origins": "https://shivrajkolwankar.netlify.app",
+            "origins": "https://shivrajkolwankar.netlify.app","https://shivraj-kolwankar.netlify.app",
             "methods": "POST",
             "allow_headers": "Content-Type",
         }
